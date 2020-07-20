@@ -1,7 +1,7 @@
-let viewFile = require("./commands/viewFile");
-let untreefyFile = require("./commands/untreefyFile");
-let treefyFile = require("./commands/treefyFile");
-let helpFile = require("./commands/helpFile");
+let viewFile = require("./viewFile");
+let untreefyFile = require("./untreefyFile");
+let treefyFile = require("./treefyFile");
+let helpFile = require("./helpFile");
 let input = process.argv.slice(2);
 let cmd = input[0];
 switch (cmd) {
